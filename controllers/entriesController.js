@@ -9,16 +9,16 @@ const ratesModel = require('../models/ratesModel');
  */
 function calculateTotals(data, rates) {
   const fields = [
-    { key: 'awak',             rateKey: 'awak' },
-    { key: 'jawak',            rateKey: 'jawak' },
-    { key: 'varning',          rateKey: 'varning' },
-    { key: 'dock_awak',        rateKey: 'dock_awak' },
-    { key: 'dock_jawak',       rateKey: 'dock_jawak' },
-    { key: 'checkbox_flag',    rateKey: 'checkbox_flag' },
-    { key: 'panni',            rateKey: 'panni' },
-    { key: 'potti_5',          rateKey: 'potti_5' },
-    { key: 'potti_10',         rateKey: 'potti_10' },
-    { key: 'solapur',          rateKey: 'solapur' },
+    { key: 'awak', rateKey: 'awak' },
+    { key: 'jawak', rateKey: 'jawak' },
+    { key: 'varning', rateKey: 'varning' },
+    { key: 'dock_awak', rateKey: 'dock_awak' },
+    { key: 'dock_jawak', rateKey: 'dock_jawak' },
+    { key: 'checkbox_flag', rateKey: 'checkbox_flag' },
+    { key: 'panni', rateKey: 'panni' },
+    { key: 'potti_5', rateKey: 'potti_5' },
+    { key: 'potti_10', rateKey: 'potti_10' },
+    { key: 'solapur', rateKey: 'solapur' },
     { key: 'kishan_dock_awak', rateKey: 'kishan_dock_awak' },
   ];
 

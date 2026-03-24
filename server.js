@@ -13,6 +13,7 @@ const { errorHandler } = require('./middleware/errorHandler');
 const authRoutes = require('./routes/auth');
 const ratesRoutes = require('./routes/rates');
 const entriesRoutes = require('./routes/entries');
+const healthRoutes = require('./routes/health');
 
 const app = express();
 const PORT = parseInt(process.env.PORT, 10) || 3000;
@@ -49,6 +50,7 @@ app.use(
   })
 );
 
+app.use('/api/health', healthRoutes);
 app.use('/api/auth', authRoutes);
 app.use('/api/rates', ratesRoutes);
 app.use('/api/entries', entriesRoutes);
